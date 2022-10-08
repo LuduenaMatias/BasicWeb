@@ -1,0 +1,282 @@
+/* ESTILO BASE DEL SITIO */
+body 			
+					{background-image: url("img/fondos/backgroundbeta5.png");
+					background-color:#333333 ;
+					background-position:top left;
+					background-size:100% 120%;
+					display:block;
+					font-family:"Comic Sans MS";}
+/* LISTA DE BOTONES */
+
+.tableButtons	*	{
+						align-self: center;
+						align-content: center;
+					}
+#Button1			
+					{border:30px 80px;
+					text-align:center;
+					position: relative;
+					top:8em;
+					left:1em;}
+#Button1	a		
+					{background-image: url("botones/BInicio.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button1	a:hover
+					{background-image: url("botones/BInicio2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+#Button2			
+					{border:30px 80px;
+					padding:3px; 
+					text-align:center;
+					position:relative;
+					top:.2em;
+					left:15.5em;}
+#Button2	a		
+					{background-image: url("botones/BInscribete.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button2	a:hover
+					{background-image: url("botones/BInscribete2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+#Button3			
+					{border:30px 80px;
+					text-align:center;
+					position: relative;
+					top:-6.1em;
+					left:30em;}
+#Button3	a		
+					{background-image: url("botones/BElcomienzo.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button3	a:hover
+					{background-image: url("botones/BElComienzo2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+#Button4			
+					{border:30px 80px;
+					padding:3px; 
+					text-align:center;
+					position:relative;
+					top:-12.5em;
+					left:44.5em;}
+#Button4	a		
+					{background-image: url("botones/BJuegos.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button4	a:hover
+					{background-image: url("botones/BJuegos2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+#Button5			
+					{border:30px 80px;
+					padding:3px; 
+					text-align:center;
+					position:relative;
+					top:-19em;
+					left:59em;}
+#Button5	a		
+					{background-image: url("botones/BProductos.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button5	a:hover
+					{background-image: url("botones/BProductos2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+#Button6			
+					{border:30px 80px;
+					padding:3px; 
+					text-align:center;
+					position:relative;
+					top:-25.5em;
+					left:73.5em;}
+#Button6	a		
+					{background-image: url("botones/BContacto.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#Button6	a:hover
+					{background-image: url("botones/BContacto2.png");
+					background-size:101% 101%;
+					height:5em;
+					width:14em;
+					background-position: center top;
+					display:block ;}
+
+/* AJUSTES DE LA TABLA DEL LOGO*/
+
+#sam 				
+					{border:30px 80px;
+					text-align:center;
+					position: relative;
+					top:1em;
+					left:0em;}
+#sam	a			
+					{background-image: url("img/Logo2.png");
+					background-size:101% 101%;
+					height:20em;
+					width:17em;
+					background-position: center top;
+					display:block ;
+					text-decoration:none;}
+#sam	a:hover		
+					{background-image: url("img/Logo2BYN.png");}
+#sam #Arc			{position:relative;
+					top:4em;}
+					
+/* TABLA EL COMIENZO */
+
+#tabElCom			
+					{position:relative;
+					top:-20em;
+					background-size:100% 100%;
+					background-position:top left;
+					padding-left:11px;}
+#tabElCom	h1	
+					{font-family:monospace,arial;
+					font-weight:700;}
+/* TABLA INICIO */
+#tabInicio			
+					{position:relative;
+					top:-18em;}
+#tabInicio td		
+					{background-size:100% 100%;}
+#tabInicio	td	ol	
+					{list-style:none;
+					padding-top:30%;
+					display:block;}
+#tabInicio	td	ol a
+					{display:block;
+					padding:2em 1em;
+					color:#FFF;
+					text-decoration:none;}
+#tabInicio	h3		
+					{text-indent:1in;
+					padding-top:1in;
+					color:white;
+					font-family:monospace,"Comic Sans MS";
+					font-size:40;
+					text-decoration:underline;}
+#tabInicio h2		
+					{text-decoration:underline;
+					color:white;}
+#tabInicio	td	ol a:visited
+					{color:#808;}
+#tabInicio	td	ol a:hover
+					{color:#5F5;}
+#tabInicio	td	ul	
+					{list-style:square;
+					padding-top:8%;
+					display:block;}
+#tabInicio	td	ul li
+					{padding:2em 1em;
+					color:#FFF;
+					text-decoration:none;}
+/* FORMULARIO (INSCRIBIRSE) */
+form	#tabIns		
+					{position:relative;
+					top:-17em;}
+form	#tabIns	td
+					{background-color:333;
+					color:orange;}
+/* TABLA JUEGOS */
+#tabGames			
+					{margin-top:-26em;}
+#tabGames	a		
+					{/*font-size:25;*/
+					font-family:monospace;
+					font-weight:600;
+					background-image:url("img/fondos/texturanegro.jpg");
+					text-decoration:none;
+					color:white;
+					border:3px solid orange;}
+#tabGames	a:hover
+					{color:#5F5;}
+/* TABLA PRODUCTOS */
+#tabProd
+					{margin-top:-25em;
+					margin-left:-9em;
+					color:white;}
+#tabProd	h2		
+					{text-align:center;}
+#tabProd	ul	li	
+					{text-align:left;
+					text-indent:5;
+					line-height:2;}
+#tabProd	p		
+					{padding-left:5em;
+					/*text-indent:8em;*/
+					color:#111;
+					font-family:"New Times Roman",monospace,"Comic Sans MS";
+					font-weight:800;
+					font-size:26;}
+#tabProd	#img1 img	
+					{border:3px solid orange;}
+#tabProd	#img2 img	
+					{border:3px solid orange;}
+#tabProd	#img3 img	
+					{border:3px solid orange;}
+/* TABLA ARCOIN */
+#tabEmp			
+					{margin-top:-15em;
+					color:white;}
+#tabEmp		h2		
+					{font-family:monospace,arial;
+					font-weight:600;
+					background-image:url("img/fondos/texturanegro.jpg");
+					border:3px solid orange;
+					margin-top:.2em;
+					margin-bottom:.2em;}
+/* CLASE */
+.volver		a			
+					{display:block;
+					position:relative;
+					top:-1em;
+					font-family:monospace,arial;
+					font-weight:600;
+					background-image:url("img/fondos/texturanegro.jpg");
+					text-decoration:none;
+					color:white;
+					border:3px solid orange;}
+.volver		a:hover	
+					{color:#5F5;}
